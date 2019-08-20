@@ -5,7 +5,7 @@ from django.shortcuts import render
 def vw (request) :
 
 	context = {
-	"msg" : "Hello world!",
+	"msg" : "Hello World!",
 	}
 
 	return render (request, 'test.html', context)
